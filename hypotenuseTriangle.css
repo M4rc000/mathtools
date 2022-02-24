@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=IM+Fell+Great+Primer:ital@1&family=Romanesco&family=Syne+Tactile&display=swap');
+
+body {
+  background-image: url(bg.png);
+  overflow: hidden;
+}
+
+.nav-tabs {
+  width: 589px;
+  margin: auto;
+}
+
+a.nav-link {
+  color: white !important;
+}
+
+.active {
+  background-color: rgb(20, 19, 19) !important;
+}
+
+.container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.container1 {
+  width: 1200px;
+  height: 1500px;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.tiga {
+  width: 800px;
+  height: 400px;
+  background-color: rgb(0, 177, 162);
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+input {
+  border-radius: 20px;
+  width: 120px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+button.btn-primary {
+  border-radius: 30px;
+  width: 90px;
+  border: 1.5px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  background-color: blue;
+  margin-left: 3rem;
+}
+
+button.btn-primary:hover {
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 1.5px 1.5px 5px rgb(255, 255, 255);
+}
+
+div.judul3 {
+  font-family: 'Syne Tactile', cursive;
+  font-size: 30px;
+}
+
+.hasil-tiga {
+  width: 210px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 3rem;
+  margin-left: 19rem;
+  line-height: 69px;
+  font-size: 20px;
+  box-shadow: 2px 2px 1px blue;
+}
